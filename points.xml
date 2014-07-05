@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<points>
+
+<point>
+<name>Palo Santo Restaurante</name>
+<address>Centro, Calle De Las Damas # 3-13</address>
+<latitud>10.4225</latitud>
+<longitud> -75.55194444444444</longitud>
+<phone>6649658</phone>
+<website>http://www.restaurantepalosanto.com</website>
+</point>
+
+
+
+
+
+<point>
+<name>Restaurante El Santísimo</name>
+<address>Centro, Calle del Torno # 39-76</address>
+<latitud>10.428947222222222</latitud>
+<longitud>-75.54755277777778</longitud>
+<phone>6601531</phone>
+<website>https://www.elsantisimo.com</website>
+</point>
+
+
+<point>
+<name>La Enoteca</name>
+<address>Centro, Calle San Juan de Dios No 3-39</address>
+<latitud>10.421944444444444</latitud>
+<longitud>-75.55215277777778</longitud>
+<phone>6643806</phone>
+<website>http://www.enoteca.com.co</website>
+</point>
+
+
+
+
+
+</points>
+
+

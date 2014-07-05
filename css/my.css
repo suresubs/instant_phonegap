@@ -1,0 +1,207 @@
+
+
+
+
+
+.foo {
+  
+  
+    background:  url(../images/bar_down.png) repeat-x;
+
+}
+
+.sm{
+  
+ 
+    background:  url(../images/botton.png) repeat-x;
+   
+
+}
+
+
+
+
+
+.my-button {
+  
+    background:white;
+    border: none;
+    
+}
+
+
+
+
+.hea {
+  
+  height: 49px;
+    background:  url(../images/bar_superior.png) repeat-x;
+
+}
+
+
+.com{
+  
+ font:bold;
+    background:  url(../images/botton.png) repeat-x;
+
+}
+
+tdRuta{
+padding: 100px;
+}
+
+.botonSearch
+{
+
+
+  padding:6px;
+  width: 20px;
+ 
+}
+
+
+.settings
+{
+
+text-align:center;
+color:#551303;
+width: 33%;
+
+	
+}
+
+.nomres
+{
+
+font-size:13px;
+color:#551303;
+text-align: center;
+
+
+
+	
+}
+
+.nomres2
+{
+font-size:13px;
+
+color:#551303;
+
+
+
+	
+}
+
+
+
+
+.settings3
+{
+
+width: 50%;
+
+	
+}
+
+.settings4
+{
+
+width: 30%;
+
+	
+}
+
+.settings5
+{
+
+width: 40%;
+text-align: center;
+
+	
+}
+
+.settings6
+{
+
+width: 30%;
+
+	
+}
+
+
+#SearchTable
+{
+    border-collapse: collapse;
+    padding:0px 0px 0px 0px;
+  
+}
+
+#SearchTable1
+{
+    border-collapse: collapse;
+    padding:0px 0px 0px 0px;
+   
+
+  
+  
+}
+
+#SearchTable td 
+{
+    padding:0;
+    border-spacing:0px 0px; 
+}
+
+#SearchTable1 td 
+{
+    padding:0;
+    border-spacing:0px 0px; 
+}
+
+.settings4
+{
+
+width: 10px;
+
+	
+}
+
+
+
+ 
+.settings2
+{
+
+	margin-top:3px;
+
+font-size:85%;
+}
+
+
+
+
+/*
+#roast_map{
+position:absolute;
+top:0;
+left:0;
+right:0;
+left:0;
+bottom:0;
+}
+*/
+/*
+.ui-page {
+  -webkit-backface-visibility: hidden !important;
+}
+
+.ui-tabs .ui-tabs-hide {
+    position: absolute;
+    left: -10000px;
+    display:block !important;
+
+}
+*/
+
