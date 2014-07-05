@@ -1,44 +1,28 @@
 var map;
 var latitud;
 var longitud;
-var xmlDoc = loadXml("points.xml");
 var marker;
 var markersArray = [];
 
-
-function loadXml(xmlUrl) {
-	var xmlhttp;
-
-	if (window.XMLHttpRequest) {
-		xmlhttp = new XMLHttpRequest();
-	} else {
-		xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-	}
-	xmlhttp.open("GET", xmlUrl, false);
-	xmlhttp.send();
-	xmlDoc = xmlhttp.responseXML;
-	return xmlDoc;
-}
-
 function createMarkers(xmlDoc) {
 
-
-
-		var items = xmlDoc.getElementsByTagName('point');
+		var items = [
+{ 	"name" : "AdaSpaulding", "address" = "Ada at Spaulding", "latitud" = "42.948775", "longitud" = "-85.540428" }
+{ 	"name" : "CascadeHall", "address" = "Cascade at Hall", "latitud" = "42.941533", "longitud" = "-85.538754" }
+{ 	"name" : "CascadeRiver", "address" = "Cascade at Thornapple River", "latitud" = "42.911004", "longitud" = "-85.496482" }
+];
 
 		for (var i = 0; i < items.length; i++) {
 
-			var lat = items[i].getElementsByTagName('latitud')[0].childNodes[0];
-			var long = items[i].getElementsByTagName('longitud')[0].childNodes[0];
-			var latlng = new google.maps.LatLng(lat.nodeValue, long.nodeValue);
+			var lat = items[i]['latitud'];
+			var long = items[i]['longitud'];
+			var latlng = new google.maps.LatLng(lat, long);
 
-			var name = items[i].getElementsByTagName('name')[0].childNodes[0].nodeValue;
-			var address = items[i].getElementsByTagName('address')[0].childNodes[0].nodeValue;
+			var name = items[i]['name'];
+			var address = items[i]['address'];
 
 			addMarker(map, name, address, latlng);
-
 		}
-
 
 } // end createMarkers
 
@@ -151,7 +135,7 @@ function loadMap() {
 } // end loadMap
 
 function showMyPoints() {
-	createMarkers(xmlDoc);
+	createMarkers();
 }
 
 
