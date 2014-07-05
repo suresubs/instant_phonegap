@@ -4,7 +4,7 @@ var longitud;
 var marker;
 var markersArray = [];
 
-function createMarkers(xmlDoc) {
+function createMarkers() {
 
 		var items = [
 { 	"name" : "AdaSpaulding", "address" = "Ada at Spaulding", "latitud" = "42.948775", "longitud" = "-85.540428" }
