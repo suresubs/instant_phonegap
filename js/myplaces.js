@@ -34,9 +34,8 @@ function createMarkers(xmlDoc) {
 
 			var name = items[i].getElementsByTagName('name')[0].childNodes[0].nodeValue;
 			var address = items[i].getElementsByTagName('address')[0].childNodes[0].nodeValue;
-			var phone = items[i].getElementsByTagName('phone')[0].childNodes[0].nodeValue;
 
-			addMarker(map, name, address, phone, latlng);
+			addMarker(map, name, address, latlng);
 
 		}
 
@@ -44,13 +43,12 @@ function createMarkers(xmlDoc) {
 } // end createMarkers
 
 
-function addMarker(map, name, address, phone, latlng) {
+function addMarker(map, name, address, latlng) {
 
 	var contentString = '';
 	contentString += '<div>';
 	contentString += '<b>Name:</b>' + name + '<br/>';
 	contentString += '<b>Address:</b>' + address + '<br/>';
-	contentString += '<b>Phone:</b>' + phone + '<br/>';
 	contentString += '</div>';
 
 	var infowindow = new google.maps.InfoWindow({
